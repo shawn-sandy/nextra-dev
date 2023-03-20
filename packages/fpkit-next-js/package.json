@@ -11,6 +11,10 @@
   "dependencies": {
     "@fpkit/react": "^0.2.61",
     "@testing-library/dom": "^9.0.1",
+    "next": ">=13",
+    "next-themes": "^0.2.1",
+    "nextra": "workspace:*",
+    "nextra-theme-blog": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
