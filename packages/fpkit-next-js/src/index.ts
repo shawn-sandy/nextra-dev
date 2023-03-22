@@ -1,3 +1,3 @@
-import Nav from './components/nav'
+import Nav, { NavList } from './components/nav'
 
-export { Nav }
+export { Nav, NavList }
