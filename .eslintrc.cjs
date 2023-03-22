@@ -188,7 +188,7 @@ module.exports = {
     },
     // ⚙️ blog example
     {
-      files: 'examples/nextra-first-blog/**',
+      files: 'examples/fpkit-blog/**',
       settings: {
         next: { rootDir: 'examples/nextra-first-blog' }
       }
@@ -213,7 +213,8 @@ module.exports = {
       }
     },
     {
-      files: 'packages/{nextra,nextra-theme-docs,nextra-theme-blog,nextra-first-blog}/**',
+      files:
+        'packages/{nextra,nextra-theme-docs,nextra-theme-blog,fpkit-blog}/**',
       rules: {
         // disable rule because we don't have pagesDir in above folders
         '@next/next/no-html-link-for-pages': 'off'
