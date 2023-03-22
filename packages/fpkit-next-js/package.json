@@ -18,6 +18,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && tsup --dts",
+    "watch": "tsup --dts --watch",
     "build:all": "pnpm build",
     "package": "tsc && tsup --dts",
     "prepublishOnly": "pnpm build:all",
